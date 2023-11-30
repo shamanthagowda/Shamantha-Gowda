@@ -1137,14 +1137,14 @@ section {
 #footer .copyright {
   margin: 0 0 0 0;
   color: #dedfe0;
-  font-size: 2px;
+  font-size: 0px;
 }
 
 #footer .credits {
-  font-size: 2px;
+  font-size: 0px;
   color: #dedfe0;
 }
 #footer .credits a {
-  font-size: 2px;
+  font-size: 0px;
   color: #dedfe0;
 }
