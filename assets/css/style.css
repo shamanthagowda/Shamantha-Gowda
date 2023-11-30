@@ -936,7 +936,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .section-header {
+/* .testimonials .section-header {
   margin-bottom: 40px;
 }
 
@@ -1015,7 +1015,7 @@ section {
     width: 80%;
   }
 }
-
+ */
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1136,15 +1136,15 @@ section {
 
 #footer .copyright {
   margin: 0 0 0 0;
-  color: #f7f8f9;
+  color: #dedfe0;
   font-size: 2px;
 }
 
 #footer .credits {
   font-size: 2px;
-  color: #f7f8f9;
+  color: #dedfe0;
 }
 #footer .credits a {
   font-size: 2px;
-  color: #f7f8f9;
+  color: #dedfe0;
 }
