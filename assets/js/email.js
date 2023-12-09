@@ -18,10 +18,10 @@ function Send(){
            '<col style="width: 33%;">'+
            '<col style="width: 60%;">'+
        '</colgroup>'+
-       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Name </td><td style="background-color: white; padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ name +"</td></tr>"+
-       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Email </td><td style="background-color: white; padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ email +"</td></tr>"+
-       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Subject </td><td style="background-color: white; padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+sub +"</td></tr>"+
-       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Message </td><td style="background-color: white; padding: 10px 5px;padding: 10px 5px; border: solid black 2px ; ">'+ messs +"</td></tr>"+
+       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Name </td><td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ name +"</td></tr>"+
+       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Email </td><td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ email +"</td></tr>"+
+       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Subject </td><td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+sub +"</td></tr>"+
+       '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Message </td><td style=" padding: 10px 5px;padding: 10px 5px; border: solid black 2px ; ">'+ mess +"</td></tr>"+
    '</table>'
     // var body = "Name: " + name+ 
     // "<br/> Email :"+ email +
