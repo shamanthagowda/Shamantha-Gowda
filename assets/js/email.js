@@ -4,14 +4,14 @@ function Send(){
     var sub = document.getElementById("subject").value;
     var mess = document.getElementById("message").value;
 
-    var body ='<table style="width: 100%;">'+ '<colgroup>'+
+    var body ='<table style="width: 100%; border-collapse: collapse;">'+ '<colgroup>'+
         '<col style="width: 33%;">'+
         '<col style="width: 66%;">'+
     '</colgroup>'+
-    '<tr><td> Name </td><td>'+name+"</td></tr>"+
-    "<tr><td> Email </td><td>"+ email+"</td></tr>"+
-    "<tr><td> Subject </td><td>"+sub +"</td></tr>"+
-    "<tr><td> Message </td><td>"+mess+"</td></tr>"+
+    '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Name </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+name+"</td></tr>"+
+    '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Email </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ email+"</td></tr>"+
+    '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Subject </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+sub +"</td></tr>"+
+    '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Message </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+mess+"</td></tr>"+
 "</table>";
    //     var body='<table style="width: 100%; background-color: aliceblue; border-collapse: collapse;">'+
    //     '<colgroup>'+
