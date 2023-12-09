@@ -22,7 +22,7 @@ function Send(){
        '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Email </td><td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ email +"</td></tr>"+
        '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Subject </td><td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+sub +"</td></tr>"+
        '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Message </td><td style=" padding: 10px 5px;padding: 10px 5px; border: solid black 2px ; ">'+ mess +"</td></tr>"+
-   '</table>'
+   '</table>';
     // var body = "Name: " + name+ 
     // "<br/> Email :"+ email +
     // "<br/> Subject :" + sub+
