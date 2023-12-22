@@ -795,6 +795,24 @@ section {
   padding: 0;
 }
 
+/* more images page */
+.more-designs{
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.more-designs:hover{
+  color: white;
+}
+
+.more-designs a i{
+  padding-left: 10px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
