@@ -3,13 +3,13 @@ function Send(){
     var email = document.getElementById("email").value;
     var sub = document.getElementById("subject").value;
     var mess = document.getElementById("message").value;
-    var page="Main Page"
+    var page="Design Portfolio"
 
     var body ='<table style="width: 100%; border-collapse: collapse;">'+ '<colgroup>'+
         '<col style="width: 33%;">'+
         '<col style="width: 66%;">'+
     '</colgroup>'+
-    '<tr><td style="color: blueviolet; background-color: grey; padding: 10px 5px; border: solid black 2px;"> Page </td>  <td style=" padding: 10px 5px; padding: 10px 5px; background-color: grey; border: solid black 2px ;">'+page+"</td></tr>"+
+    '<tr><td style="color: blueviolet; background-color: grey; padding: 10px 5px; border: solid black 2px;"> Page </td>  <td style="background-color: grey; padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+page+"</td></tr>"+
     '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Name </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+name+"</td></tr>"+
     '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Email </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+ email+"</td></tr>"+
     '<tr><td style="color: blueviolet; padding: 10px 5px; border: solid black 2px;"> Subject </td>  <td style=" padding: 10px 5px; padding: 10px 5px; border: solid black 2px ;">'+sub +"</td></tr>"+
