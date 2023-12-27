@@ -48,7 +48,7 @@
 
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- <i class="bi bi-list mobile-nav-toggle d-lg-none"></i> -->
 
 
 
@@ -86,7 +86,7 @@
             <h6>This section indicates colouring of Grayscale images. </h6>
             <!-- <h6>Colour Splash &ensp;<i class="fa-solid fa-arrow-right"></i> &emsp; Move the bar &emsp; <i class="fa-solid fa-arrow-left"></i>&ensp; Black and White</h6> -->
             <h6></h6>
-            <h6>Move the bar/slider </h6>
+            <h6>Move the Slider Bar </h6>
             <h6><b>Right for Grayscale</b>  and <b>Left for Colour Splash!</b> </h6>
             <!-- <h6><i class="fa-solid fa-arrow-left"></i>&ensp; Black and White &emsp; &emsp; &emsp; &emsp; &emsp; Colour Splash &ensp;<i class="fa-solid fa-arrow-right"></i> </h6> -->
 
@@ -175,6 +175,7 @@
 <!-- colour 1 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-colour">
             <div class="portfolio-wrap-comp">
+              <!-- <h6 class="before-after"><span>Before</span> &emsp; &ensp;<span> After</span></h6> -->
               <img-comparison-slider>
                 <img class="img-fluid" slot="first" src="assets/img/design_portfolio/colour/1bw.png" />
                 <img class="img-fluid" slot="second" src="assets/img/design_portfolio/colour/1c.png" />
@@ -394,7 +395,75 @@
     </section><!-- End Portfolio Section -->
 
 
-    
+    <!-- contact -->
+    <section id="contact" class="contact">
+      <div class="container"  data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p> Uttarahalli, Bengaluru 560061</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:shamanthagowda02@gmail.com" style="color: #728394;">shamanthagowda02@gmail.com</a></p>
+              </div>
+
+<!--               <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:+91 6366140780" style="color: #728394;"> +91 6366140780</a> </p>
+              </div> -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form role="form" >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <!-- <div class="text-center"><input type="submit" value="send"></div> -->
+              <div class="text-center"><input onclick="Send(); reset(); return false;" type="button" value="Send Message"> </div>
+              <!-- <div><input type="button" value="Send Mail"
+                onclick="sendEmail()" /></div> -->
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
    <!-- ======= Footer ======= -->
    <footer id="footer">
     <div class="container">
@@ -432,6 +501,11 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- contact -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="assets/js/email_contact.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
