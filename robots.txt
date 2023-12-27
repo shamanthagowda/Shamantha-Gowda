@@ -1,6 +1,0 @@
-User-agent: *
-Disallow:
-Disallow: /assets/js/main.js
-Disallow: /assets/img/cert
-Disallow: /cgi-bin/
-Sitemap: https://shamanthagowda.github.io/Shamantha-Gowda/sitemap.xml
