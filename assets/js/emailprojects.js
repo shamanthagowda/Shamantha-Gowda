@@ -5,6 +5,7 @@ function Send(){
     var mess = document.getElementById("message").value;
     var page="Projects"
 
+    
     var body ='<table style="width: 100%; border-collapse: collapse;">'+ '<colgroup>'+
         '<col style="width: 33%;">'+
         '<col style="width: 66%;">'+
