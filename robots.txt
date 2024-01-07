@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/css
+Disallow: /assets/js
+Disallow: /assets/pdf
+Disallow: /assets/vendor
+
+Sitemap: https://shamanthagowda.github.io/Shamantha-Gowda/sitemap.xml
